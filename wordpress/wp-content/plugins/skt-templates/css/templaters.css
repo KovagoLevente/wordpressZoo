@@ -4599,3 +4599,136 @@ animation: qodefFloat 3s ease-in-out infinite;}
 .skt-nutritionist-coach-section9 { padding-top:60px !important;}	
 }
 /* SKT Nutritionist Coach */ 
+
+/* Furniture Lite */
+.furniture-store-title{position:relative;}
+.furniture-store-title:before{content:''; background:#705738; width:6%; height:2px; position:absolute; top:-17px; left:0;}
+.furniture-store-products-box { margin-bottom:70px;}
+.furniture-store-products-box-inner {background: #fff;text-align: center; border-radius:25px; padding:40px 0;}
+.furniture-store-products-thumb a img { border-radius:25px 25px 0 0; width:199px !important; height:250px !important;object-fit: cover; margin:0 auto;}
+.furniture-store-products-title { padding-top:50px;}
+.furniture-store-products-title h3 a { font-size:21px; font-weight:400;font-family: 'Poppins'; color:#393939;}
+.furniture-store-products-title h3 a:hover { color:#cba076;}
+
+.skt-christmas-products-items a {border: none;color: #282828;font-size:16px; font-weight:500;font-family: 'Poppins';}
+.skt-christmas-products-items { padding-top:10px}
+
+.skt-christmas-products-items a:hover {color: #cba076;}
+.skt-christmas-products-items { padding-top:10px;}
+.furniture-store-products .owl-nav  { display:none !important;}
+.furniture-store-products .owl-dots  { display:block !important;width: 222px;margin: 0 auto;text-align: center; position:relative;}
+.furniture-store-products .owl-dots::before { content:''; background:#cba076; width:222px; height:222px; border-radius:100%; position:absolute; bottom:-50px; left:50%; transform:translateX(-50%); z-index:-1;}
+.furniture-store-products .owl-dot {width: 18px;height: 18px;background: #705738;border-radius: 100%;border: 6px solid #705738; margin:0 3px;}
+.furniture-store-products .owl-dot.active {background: #ffffff;}
+.furniture-store-section2-leftimg { position:relative !important;}
+.furniture-store-section2-leftimg::before { content:''; background:#f3e2d3; width:530px; height:530px; border-radius:100%; right:-80px;bottom:0; position:absolute;z-index: -1;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after { content:'';background: url(https://demosktthemes.com/free/furniture-lite/wp-content/uploads/2024/04/btn-arrow.png); width:39px; height:28px; position:absolute; top:50%; right:60px; transform:translateY(-50%); z-index:2;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a { position:relative !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before { content:'';background:#c09368; width:128px; height:128px; position:absolute; top:50%; right:20px; transform:translateY(-50%); border-radius:100%; z-index:1;}
+.furniture-store-section4-left-btn .elementor-button-wrapper { position:relative !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after { content:'';position: absolute;top: 50%;    right: -80px;transform: translateY(-50%); width: 0;height: 0;border-top: 15px solid transparent;border-bottom: 15px solid transparent;border-left: 15px solid #c09368;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before { content:'';background:#c09368; width:96px; height:3px; position:absolute; top:50%; right:-70px; transform:translateY(-50%); z-index:1;}
+
+.furniture-store-section4-right-img::before {content: '';background: #f3e2d3;width: 492px;height: 492px;border-radius: 100%;left: 0px;bottom: 100px;position: absolute;z-index: -1;}
+.furniture-store-section4-right-img { position:relative !important;}
+.furniture-store-section4-right-discount .elementor-widget-container { width:173px !important; height:173px; border-radius:100%;}
+.furniture-store-section4-right { position:relative !important;}
+.furniture-store-section4-right-discount { position:absolute !important; top:0; left:0; z-index:5;}
+.furniture-store-section5::after { content:''; background:rgb(179,135,92,0.8); height:100%; position:absolute; right:0; top:0; width:55%;}
+.products.columns-2 li .skt-product-img { border-radius:0 !important;}
+.products.columns-2 li { margin-bottom:40px !important;}
+.furniture-store-section6-left::before {content: '';background: #f9f9f9; position: absolute;width: 500%;height: 100%;left: -500%;}
+.furniture-store-section7-product .products.columns-4 li .skt-product-img { border-radius:0 !important;}
+.products.columns-4 .woosw-btn, .products.columns-3 .woosw-btn, .products.columns-2 .woosw-btn, .products.columns-1 .woosw-btn { display:none !important;}
+.woocommerce .products.columns-4 p, .woocommerce .products.columns-3 p, .woocommerce .products.columns-2 p, .woocommerce .products.columns-1 p {display: none;}
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button { color:#ffffff !important;}
+.furniture-store-section5-inner-left-video .elementor-custom-embed-image-overlay img { width:98px !important; height:98px !important; margin:0 auto !important; opacity:0;}
+.furniture-store-section5-inner-left-video .elementor-custom-embed-image-overlay { position: absolute !important;width: 20%;right: 15%;top: 50%;transform: translateY(-50%);}
+.furniture-store-section5-inner-left-video .elementor-custom-embed-play i { font-size:25px !important; opacity:1 !important; text-shadow:none !important; color:#c09368; line-height:98px;}
+.furniture-store-section5-inner-left { position:relative !important;}
+
+
+@media(min-width: 1024px) and (max-width: 1199px){
+.furniture-store-section2-leftimg::before {width: 440px !important;height: 440px !important; right:-20px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before {width: 78px !important;height: 78px !important;right: 20px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after { right:40px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before { right:70px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after {right: 60px !important;}
+.furniture-store-section3-product .woocommerce ul.products li.product:hover .button { bottom:94px !important;}
+.furniture-store-section3-product .woocommerce ul.products li.product .button {width: 91% !important;}
+.furniture-store-section7-product .woocommerce ul.products li.product:hover .button {bottom: 94px !important;}
+.furniture-store-section6-right-product .woocommerce ul.products li.product:hover .button {bottom: 94px !important;}
+.furniture-store-section10-box1, .furniture-store-section10-box2, .furniture-store-section10-box3, .furniture-store-section10-box4 { width:25% !important;}
+.furniture-store-section10-box1 .elementor-widget-image-box .elementor-widget-container {padding: 40px 20px 40px 20px !important; margin:8px !important;}
+.furniture-store-section10-box2 .elementor-widget-image-box .elementor-widget-container {padding: 40px 20px 40px 20px !important; margin:8px !important;}
+.furniture-store-section10-box3 .elementor-widget-image-box .elementor-widget-container {padding: 40px 14px 40px 14px !important; margin:8px !important;}
+.furniture-store-section10-box4 .elementor-widget-image-box .elementor-widget-container {padding: 40px 20px 40px 20px !important; margin:8px !important;}
+.furniture-store-section10-box1 .elementor-widget-image-box .elementor-widget-container .elementor-image-box-title { font-size:18px !important;}
+.furniture-store-section10-box2 .elementor-widget-image-box .elementor-widget-container .elementor-image-box-title { font-size:18px !important;}
+.furniture-store-section10-box3 .elementor-widget-image-box .elementor-widget-container .elementor-image-box-title { font-size:18px !important;}
+.furniture-store-section10-box4 .elementor-widget-image-box .elementor-widget-container .elementor-image-box-title { font-size:18px !important;}	
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+.furniture-store-section2-leftimg::before {width: 350px !important;height: 350px !important; bottom:0 !important; right:-20px !important;}
+.furniture-store-section4-right-img::before {width: 382px !important;height: 382px !important;bottom: 60px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before {width: 78px !important;height: 78px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after {width: 8% !important;right: 42px !important;background-size: 100% !important;background-repeat: no-repeat !important;margin-top: 5px;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before { right:-30px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after {right:-40px !important;}
+.furniture-store-products-title { padding-top:10px !important;}
+.furniture-store-products-box { margin-bottom:30px !important}
+.furniture-store-section4-left-btn .elementor-button.elementor-button-link { display:block !important;}
+.furniture-store-section5-inner-left-video .elementor-custom-embed-image-overlay { width:30% !important;right: 8% !important;}
+.furniture-store-section6-right .products.columns-2 li .woocommerce-loop-product__title { font-size:19px;}
+.furniture-store-section3-product .woocommerce ul.products li.product:hover .button {bottom: 94px !important;}
+.furniture-store-section6-right-product .woocommerce ul.products li.product:hover .button {bottom: 94px !important;}
+.furniture-store-section6-right-product .woocommerce ul.products li.product .button {padding: 15px 30px !important;width: 88% !important;}
+.furniture-store-section7-product .woocommerce ul.products li.product:hover .button {bottom: 94px !important;}
+.furniture-store-section7-product .woocommerce ul.products li.product .button {width: 94% !important;}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+.furniture-store-section2-leftimg::before { width:400px !important; height:400px !important; right:0 !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before {width: 68px !important;height: 68px !important;right: 10px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after {width: 8% !important;right: 30px !important;background-size: 100% !important;background-repeat: no-repeat !important;margin-top: 5px;}
+.furniture-store-section4-right-img::before {width: 320px !important;height: 320px !important;left: 0 !important;right: 0 !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before { display:none !important}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after { display:none !important;}
+.furniture-store-section4-right-discount { left:10px !important; width:90% !important;}
+.furniture-store-section5-inner-left-video .elementor-custom-embed-image-overlay { width:30% !important; right:40% !important;}
+.elementor-element.furniture-store-section4-right-discount .elementor-widget-container { width:143px !important; height:143px !important;}
+.furniture-store-section9-testimonials .owl-stage-outer .item::before { display:none;}
+}
+
+@media screen and (max-width: 29.938em) {
+.furniture-store-section4-right-img::before{display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before{width: 68px !important; height: 68px !important; right: 10px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after {display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before{display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after{right:25px;}
+.furniture-store-section4-right-discount .elementor-widget-container {width: 150px !important; height: 150px; border-radius: 100%; margin-left: 15px;}
+}
+
+@media screen and (max-width:47.938em) and (min-width:30.000em){
+.furniture-store-section4-right-img::before{display:none;}	
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before{width: 68px !important; height: 68px !important; right: 10px !important;}	
+.furniture-store-section4-left-btn .elementor-button-wrapper::after {display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before{display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after{right:25px;}
+.furniture-store-section4-right-discount .elementor-widget-container {width: 150px !important; height: 150px; border-radius: 100%; margin-left: 15px;}
+}
+
+@media screen and (max-width:63.938em) and (min-width:48.000em) {
+.furniture-store-section4-right-img::before{display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::before{width: 68px !important; height: 68px !important; right: 10px !important;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::after {display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper::before{display:none;}
+.furniture-store-section4-left-btn .elementor-button-wrapper a::after{right:25px;}
+.furniture-store-section4-right-discount .elementor-widget-container {width: 150px !important; height: 150px; border-radius: 100%; margin-left: 15px;}
+}
+
+@media screen and (max-width:72.438em) and (min-width:63.250em) {
+.furniture-store-section4-right-img::before{display:none;}	
+}
+/* Furniture Lite */

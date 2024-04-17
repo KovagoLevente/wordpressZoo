@@ -386,6 +386,15 @@ if ( ! class_exists( '\SktThemes\PageTemplatesDirectory' ) ) {
 				'required_plugins' => array( 'elementor' => array( 'title' => __( 'Elementor Page Builder', 'skt-templates' ) ) ),
 			);
 			$templates_list = array(
+				'furniture-lite-elementor'              => array(
+					'title'       => __( 'Furniture Lite', 'skt-templates' ),
+					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
+					'theme_url'   => esc_url('https://www.sktthemes.org/shop/furniture-woocommerce-wordpress-theme'),						
+					'demo_url'    => esc_url('https://demosktthemes.com/free/furniture-lite/'),
+					'screenshot'  => esc_url('https://demosktthemes.com/free/furniture-lite/furniture-lite.jpg'),
+					'import_file' => esc_url('https://demosktthemes.com/free/furniture-lite/furniture-lite.json'),
+					'keywords'    => __( ' furniture shop, furniture store, home decor, ceramics, craftsman, decor, furniture, furniture catalog, furniture portfolio, interior decoration, lighting, woodworker, sofa, chair, table, bed, wardrobe, dresser, bookcase, bench, stool, nightstand, cabinet, rocking chair'),
+				),						
 				'skt-nutritionist-coach-elementor'              => array(
 					'title'       => __( 'SKT Nutritionist Coach', 'skt-templates' ),
 					'description' => __( 'It downloads from our website sktthemes.org, once you do it you will get the exact preview like shown in the demo. Steps after downloading the theme: Upload it via appearance>themes>add new>upload theme zip file and activate the theme.', 'skt-templates' ),
